@@ -7,7 +7,15 @@ Este proyecto implementa un asistente técnico basado en Streamlit que utiliza m
 1. **Requisitos previos**:
    - Tener Python 3.7+ instalado en tu sistema.
    - Tener acceso a las claves de API necesarias para Pinecone y OpenAI. Estas claves deben ser definidas en un archivo `.env`.
-
+   - Tener un ambiente virtual creado.
+     - Para crear un entorno virtual utiliza los siguientes comandos:
+        ```bash
+        python -m venv myenv
+        ```
+        ```bash
+        .\myenv\Scripts\Activate.ps1
+        ```
+       
 2. **Instalar las dependencias**:
    En el directorio raíz del proyecto, instala las dependencias necesarias utilizando `pip`:
    ```bash
