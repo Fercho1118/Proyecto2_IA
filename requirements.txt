@@ -1,0 +1,11 @@
+langchain==0.3.6
+langchain-community
+langchain-openai
+langchain-pinecone
+openai
+pinecone
+python-dotenv
+streamlit
+pandas
+tabulate
+black
