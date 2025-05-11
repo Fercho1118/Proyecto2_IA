@@ -77,7 +77,7 @@ Este módulo gestiona la carga de las claves de API desde el archivo `.env` util
 
 ## Explicación de lo aprendido al desarrollar el asistente
 
-Durante el desarrollo de este asistente técnico, el equipo (o individualmente) aprendió sobre la integración de varias tecnologías para crear un flujo de trabajo eficiente y funcional:
+Durante el desarrollo de este asistente técnico, aprendimos sobre la integración de varias tecnologías para crear un flujo de trabajo eficiente y funcional:
 
 1. **Integración de Pinecone con LangChain**: Aprendimos cómo usar Pinecone como almacén vectorial para almacenar y consultar vectores generados a partir de los documentos cargados. Pinecone nos permitió hacer búsquedas semánticas rápidas y escalables.
 
