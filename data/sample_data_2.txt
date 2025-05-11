@@ -1,0 +1,70 @@
+1. Los LLMs basados en Transformer usan self-attention para procesar relaciones entre tokens independientemente de su posición.
+2. Transfer learning en NLP permite reutilizar modelos como BERT para tareas específicas con pocos datos de entrenamiento.
+3. Embeddings como Word2Vec y GloVe mapean palabras a espacios vectoriales donde similitud semántica se refleja en distancia geométrica.
+4. Pinecone ofrece búsqueda de similitud en tiempo real con latencias <100ms para aplicaciones de producción a gran escala.
+5. LangChain abstrae componentes como memory, agents y tools para construir pipelines complejos con LLMs fácilmente.
+6. Tokenizadores como Byte-Pair Encoding (BPE) manejan vocabularios extensos dividiendo palabras en subunidades frecuentes.
+7. Multi-head attention permite al modelo enfocarse simultáneamente en diferentes aspectos semánticos del input.
+8. ANN índices como HNSW (Hierarchical Navigable Small World) permiten búsqueda eficiente en espacios de alta dimensión.
+9. Fine-tuning adapta modelos preentrenados mediante actualización selectiva de capas y learning rates diferenciados.
+10. Embeddings de 1536 dimensiones en OpenAI ofrecen mayor expresividad que los tradicionales de 768 dimensiones.
+11. La API de OpenAI incluye endpoints para completación de texto, embeddings y fine-tuning con modelos como GPT-4-turbo.
+12. Chunking estratégico considera límites semánticos (párrafos) además de longitud para preservar contexto.
+13. Memory en LangChain implementa buffers de conversación, entity tracking y summary memory para mantener estado.
+14. Chains secuenciales en LangChain permiten transformaciones de datos paso a paso con manejo de errores integrado.
+15. Agents usan LLMs como núcleo de razonamiento para seleccionar herramientas basado en el contexto del usuario.
+16. RAG combina retrieval con generación mediante augmentación de contexto relevante en el prompt del LLM.
+17. Document loaders en LangChain soportan PDFs, HTML, markdown y 50+ formatos con extracción de metadatos.
+18. Text splitters avanzados preservan estructura jerárquica (headers, secciones) además del contenido.
+19. Cosine similarity es preferida sobre distancia euclidiana para comparar embeddings por su invariancia a magnitud.
+20. Pinecone escala automáticamente índices vectoriales mediante sharding y réplicas distribuídas.
+21. Namespaces en Pinecone permiten multi-tenancy aislando datos de diferentes clientes o aplicaciones.
+22. Batch upserts en Pinecone pueden ingerir millones de vectores con una sola llamada API optimizada.
+23. Alta dimensionalidad mejora precisión pero aumenta costo computacional (curse of dimensionality).
+24. Metadata filtering combina búsqueda semántica con filtros exactos sobre tags, fechas o categorías.
+25. Normalización L2 de embeddings asegura que comparaciones de similitud sean consistentes y precisas.
+26. Ventanas de contexto en LLMs (ej. 128k tokens en GPT-4-turbo) determinan cuánta información pueden retener.
+27. Temperature=0 produce resultados deterministas, mientras valores >0 introducen creatividad/aleatoriedad.
+28. Beam search mantiene múltiples hipótesis de generación, mejorando coherencia en texto largo.
+29. Few-shot learning con 3-5 ejemplos en el prompt puede igualar fine-tuning en algunas tareas.
+30. Top-p sampling (nucleus) filtra tokens de baja probabilidad acumulada, mejorando calidad de generación.
+31. Sistemas de recomendación modernos usan embeddings de items y usuarios en espacios vectoriales compartidos.
+32. Semantic search supera keyword matching al entender intención y conceptos detrás de las queries.
+33. Clustering como K-means agrupa embeddings similares revelando temas o categorías emergentes.
+34. t-SNE proyecta embeddings a 2D/3D preservando relaciones locales para visualización cualitativa.
+35. Modelos como CLIP aprenden embeddings alineados entre imágenes y texto para búsqueda multimodal.
+36. GANs entrenan generador y discriminador adversariamente, produciendo samples de alta fidelidad.
+37. Autoencoders comprimen input a latents space y reconstruyen minimizando pérdida de información.
+38. CNNs usan kernels aprendidos para detectar features jerárquicas desde bordes hasta objetos complejos.
+39. RNNs procesan secuencias mediante hidden states que encapsulan historia pasada.
+40. Backpropagation calcula gradientes eficientemente mediante regla de la cadena aplicada al grafo computacional.
+41. Overfitting se manifiesta cuando accuracy en entrenamiento >> validación, indicando memorización.
+42. L2 regularization (weight decay) penaliza parámetros grandes, promoviendo modelos más simples.
+43. Dropout desactiva neuronas aleatoriamente durante entrenamiento, previniendo co-adaptación excesiva.
+44. Adam combina momentum con adaptación de learning rate por parámetro para convergencia rápida.
+45. RL entrena agents mediante policy gradients o Q-learning basado en recompensas escalares.
+46. Simuladores como Unity ML-Agents permiten entrenar agents en ambientes virtuales antes de deployment.
+47. Exploration-exploitation tradeoff se maneja con ε-greedy, Boltzmann sampling o optimism under uncertainty.
+48. Diffusion models generan imágenes mediante denoising progresivo de ruido gaussiano.
+49. VAEs aprenden distribuciones latentes parametrizadas, permitiendo generación muestreando el espacio latente.
+50. Entropía en teoría de información cuantifica incertidumbre en distribuciones de probabilidad.
+51. Decision trees hacen splits greedy maximizando information gain (reducción en entropía).
+52. Random forests reducen varianza promediando predicciones de muchos árboles decorrelacionados.
+53. Boosting (AdaBoost, XGBoost) combina weak learners secuencialmente, corrigiendo errores previos.
+54. SVMs encuentran hiperplanos de margen máximo usando kernel trick para espacios no lineales.
+55. K-means alterna asignación de puntos a clusters y actualización de centroides hasta convergencia.
+56. Computational graphs en frameworks como PyTorch permiten diferenciación automática de operaciones tensoriales.
+57. GPUs paralelizan operaciones matriciales mediante miles de cores optimizados para float32.
+58. TPUs de Google usan systolic arrays para acelerar multiplicación matricial en redes neuronales.
+59. Autodiff calcula gradientes exactos mediante forward/backward pass sobre el grafo de operaciones.
+60. Model checkpoints guardan weights periódicamente permitiendo recovery después de fallos.
+61. Precision mide % de predicciones positivas correctas, recall mide % de positivos reales detectados.
+62. ROC curves grafican TPR vs FPR para diferentes thresholds, mostrando tradeoffs clasificación.
+63. BatchNorm normaliza activaciones por lote, permitiendo mayores learning rates y redes más profundas.
+64. Residual connections en ResNets permiten flujo directo de gradientes, evitando vanishing gradients.
+65. Self-attention en Transformers calcula relaciones entre todos los pares de tokens en paralelo.
+66. Positional encodings inyectan información de orden mediante funciones sinusoidales o aprendidas.
+67. Boltzmann machines son redes generativas estocásticas basadas en física estadística.
+68. CRFs modelan dependencias entre labels en secuencias, útil en NLP como POS tagging.
+69. LSTMs usan gates para controlar flujo de información, manteniendo memoria a largo plazo.
+70. GNNs propagan información a través de grafos mediante message passing entre nodos vecinos.

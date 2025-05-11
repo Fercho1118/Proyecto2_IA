@@ -1,0 +1,70 @@
+1. Los modelos de lenguaje grande (LLMs) como GPT-4 utilizan arquitecturas Transformer para procesar texto.
+2. El aprendizaje por transferencia permite ajustar modelos preentrenados para tareas específicas.
+3. Los embeddings vectoriales capturan el significado semántico de palabras y frases.
+4. Pinecone es una base de datos vectorial optimizada para búsquedas de similitud.
+5. LangChain es un framework para construir aplicaciones con modelos de lenguaje.
+6. La tokenización es el proceso de dividir texto en unidades más pequeñas (tokens).
+7. La atención multi-cabeza permite al modelo enfocarse en diferentes partes de la entrada.
+8. Los índices ANN (Approximate Nearest Neighbors) aceleran las búsquedas vectoriales.
+9. El fine-tuning adapta un modelo preentrenado a un dominio específico.
+10. Los vectores de 768 o 1536 dimensiones son comunes en embeddings modernos.
+11. La API de OpenAI proporciona acceso a modelos como GPT-4 y embeddings.
+12. Los chunks dividen documentos largos para procesarlos eficientemente.
+13. La memoria en LangChain permite mantener contexto entre interacciones.
+14. Los chains conectan múltiples componentes para flujos de trabajo complejos.
+15. Los agentes usan LLMs para tomar decisiones sobre acciones a realizar.
+16. RAG (Retrieval-Augmented Generation) combina recuperación con generación.
+17. Los loaders en LangChain importan datos de múltiples formatos y fuentes.
+18. Los splitters dividen texto considerando estructura y semántica.
+19. Los embeddings pueden compararse usando similitud coseno o distancia euclidiana.
+20. Los índices de Pinecone se pueden escalar horizontalmente según necesidad.
+21. Los namespaces en Pinecone permiten aislar diferentes conjuntos de datos.
+22. El batch processing optimiza la inserción de múltiples vectores simultáneamente.
+23. La dimensionalidad afecta el balance entre precisión y costo computacional.
+24. Los filtros de metadatos permiten refinar búsquedas vectoriales.
+25. Los modelos de embeddings requieren normalización para comparaciones precisas.
+26. El contexto máximo (token limit) es una limitación clave en LLMs.
+27. La temperatura controla la aleatoriedad en las respuestas generadas.
+28. El beam search influye en la calidad de secuencias generadas.
+29. Los few-shot prompts mejoran el rendimiento mediante ejemplos.
+30. El parámetro top-p controla el muestreo por núcleo (nucleus sampling).
+31. Los sistemas de recomendación usan similitud vectorial para sugerir ítems.
+32. La búsqueda semántica encuentra documentos con significado similar.
+33. Los clusters de vectores revelan patrones y agrupaciones naturales.
+34. La reducción de dimensionalidad (PCA, t-SNE) ayuda a visualizar embeddings.
+35. Los modelos multimodal procesan texto, imágenes y audio simultáneamente.
+36. Las GANs generan datos sintéticos que imitan distribuciones reales.
+37. Los autoencoders aprenden representaciones compactas de datos de entrada.
+38. Las redes neuronales convolucionales son efectivas para procesar imágenes.
+39. Las RNNs procesan secuencias mediante estados ocultos recurrentes.
+40. Los gradientes explícitos permiten ajustar parámetros mediante backpropagation.
+41. El overfitting ocurre cuando un modelo memoriza datos en lugar de generalizar.
+42. La regularización L2 penaliza pesos grandes para prevenir overfitting.
+43. El dropout aleatorio mejora la generalización en redes neuronales.
+44. Los optimizadores como Adam ajustan tasas de aprendizaje por parámetro.
+45. El aprendizaje por refuerzo usa recompensas para guiar el entrenamiento.
+46. Los entornos simulados permiten entrenar agentes de IA de forma segura.
+47. La exploración vs explotación es un dilema clave en RL.
+48. Los modelos de difusión generan datos mediante pasos de denoising iterativos.
+49. Las VAEs aprenden distribuciones latentes para generación de datos.
+50. La teoría de información mide incertidumbre en distribuciones de probabilidad.
+51. Los árboles de decisión particionan espacio de características recursivamente.
+52. Los bosques aleatorios promedian predicciones de múltiples árboles.
+53. El boosting combina modelos débiles para formar uno fuerte.
+54. SVM encuentra hiperplanos óptimos para clasificación.
+55. K-means agrupa puntos por proximidad a centroides.
+56. Los grafos computacionales representan flujo de datos en redes neuronales.
+57. Las GPUs aceleran operaciones matriciales en aprendizaje profundo.
+58. TPUs son hardware especializado para carga tensorial.
+59. La diferenciación automática calcula gradientes eficientemente.
+60. Los checkpoints guardan estado de modelos durante entrenamiento.
+61. Las métricas como precisión y recall evalúan modelos de clasificación.
+62. Las curvas ROC visualizan compensaciones entre tasas de acierto y falsa alarma.
+63. La normalización por lotes estabiliza el entrenamiento de redes profundas.
+64. Los residuos en ResNets permiten entrenar redes extremadamente profundas.
+65. La atención transformadora procesa todas las posiciones en paralelo.
+66. Los positional encodings inyectan información de orden en transformers.
+67. Las máquinas de Boltzmann son redes estocásticas recurrentes.
+68. Los campos aleatorios condicionales modelan dependencias en secuencias.
+69. LSTM usa células de memoria para aprender dependencias a largo plazo.
+70. Las GNNs operan sobre datos estructurados como grafos y redes.
